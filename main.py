@@ -45,8 +45,8 @@ def check_time():
     if time_now.hour >= sunset or time_now.hour <= sunrise:
         return True
 
-my_email = "christophe.moerman@gmail.com"
-pwd = "mrwm loil wluu gecb"
+my_email = 
+pwd = 
 
 def mailk(frommail, pwdd, subject, tomail, bericht):
 
