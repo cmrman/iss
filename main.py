@@ -45,8 +45,9 @@ def check_time():
     if time_now.hour >= sunset or time_now.hour <= sunrise:
         return True
 
-my_email = 
-pwd = 
+# import os and use it to get the Github repository secrets
+MY_EMAIL = os.environ.get("MY_EMAIL")
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
 
 def mailk(frommail, pwdd, subject, tomail, bericht):
 
